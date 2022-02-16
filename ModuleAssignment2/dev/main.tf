@@ -1,6 +1,8 @@
 provider "aws"{
-    region = "ap-south-1"
+	region = "ap-south-1"
+        version = "v2.70.0"
 }
+
 module "my_vpc"{
     source = "../modulesT/vpc"
     vpc_cidr = "10.0.0.0/16"
