@@ -1,0 +1,1 @@
+This terraform template is used to create a dynamodb table and create api gateway and also access those resources using lambda function.
